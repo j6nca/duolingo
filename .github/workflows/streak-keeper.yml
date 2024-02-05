@@ -2,8 +2,8 @@ name: Keep my Duolingo streak
 
 on:
   schedule:
-  # Runs 3AM UTC, 10PM ET
-    - cron: '0 3 * * *'
+  # Runs 7AM ET
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
