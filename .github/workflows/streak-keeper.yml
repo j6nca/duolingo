@@ -22,7 +22,7 @@ jobs:
           LESSONS: 1
 
       - run: |
-        echo $(date) > lastrun
-        git add lastrun
-        git commit -m "update lastrun"
-        git push
+          echo $(date) > lastrun
+          git add lastrun
+          git commit -m "update lastrun"
+          git push
