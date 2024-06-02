@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    changes:
+      - index.js
 
 jobs:
   release:
