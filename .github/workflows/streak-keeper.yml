@@ -20,3 +20,9 @@ jobs:
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 1
+
+      - run: |
+        echo $(date) > lastrun
+        git add lastrun
+        git commit -m "update lastrun"
+        git push
